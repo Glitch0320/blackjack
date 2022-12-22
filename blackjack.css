@@ -1,0 +1,47 @@
+body {
+    background-image: url('suit-background.jpg');
+}
+
+img {
+    margin: 20px auto 20px auto;
+    display: block;
+    border-radius: 10px;
+    height: 200px;
+    width: 150px;
+}
+
+h1 {
+    color: #2cff0f;
+    text-align: center;
+}
+
+.btn {
+    margin: 20px auto 20px auto;
+    display: block;
+    padding: 6px;
+    background-color: SlateBlue;
+    color: #2cff0f;
+    border: none;
+}
+
+.btn-hover {
+    margin: 20px auto 20px auto;
+    display: block;
+    padding: 6px;
+    background-color: #250db5;
+    color: MediumSeaGreen;
+    border: none;
+}
+
+#main-header {
+    text-align: center;
+    color: #2cff0f;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}

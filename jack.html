@@ -1,0 +1,32 @@
+<head>
+    <title>BlackJack</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link href="blackjack.css" rel="stylesheet">
+    <script src="blackjack.js"></script>
+</head>
+
+<body>
+    <div id="main-header"">
+        <h1>BLACKJACK</h1>
+    </div>
+        <button id="hit" type="button" class="btn">HIT</button>
+        <button id="stand" type="button" class="btn">STAND</button>
+        <h1 id="result"></h1>
+        <button id="restart" type="button" class="btn">Play Again</button>
+        <div class="grid-container">
+            <div>
+                <h1>Player</h1>
+                <h1 id="p-score">--</h1>
+            </div>
+            <div>
+                <h1>Dealer</h1>
+                <h1 id="d-score">--</h1>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div id="player"></div>
+            <div id="dealer"></div>
+        </div>
+</body>
